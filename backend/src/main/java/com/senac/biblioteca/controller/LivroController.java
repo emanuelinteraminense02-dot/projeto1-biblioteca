@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/livros")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "${FRONTEND_URL:http://localhost:5173}")
 public class LivroController {
 
     private final LivroService livroService;
