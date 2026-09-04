@@ -1,8 +1,20 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/livros",
+      "destination": "/"
+    },
+    {
+      "source": "/livros/novo",
+      "destination": "/"
+    },
+    {
+      "source": "/emprestimos",
+      "destination": "/"
+    },
+    {
+      "source": "/livros/:id/editar",
+      "destination": "/"
     }
   ]
 }
